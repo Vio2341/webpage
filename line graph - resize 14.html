@@ -1,0 +1,85 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+  
+  <head>
+    
+      <meta charset="utf-8">
+      <title>Bokeh Plot</title>
+      
+      
+        
+          
+        
+        
+          
+        <script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-2.1.1.min.js" integrity="sha384-kLr4fYcqcSpbuI95brIH3vnnYCquzzSxHPU6XGQCIkQRGJwhg0StNbj1eegrHs12" crossorigin="anonymous"></script>
+        <script type="text/javascript">
+            Bokeh.set_log_level("info");
+        </script>
+        
+      
+      
+    
+  </head>
+  
+  
+  <body>
+    
+      
+        
+          
+          
+            
+              <div class="bk-root" id="7d8587fc-3cbd-4bbd-978e-e5ac85d0e686" data-root-id="2042"></div>
+            
+          
+        
+      
+      
+        <script type="application/json" id="2230">
+          {"b9ed5b62-b3d2-4cbd-a86f-fa1d555c8da7":{"roots":{"references":[{"attributes":{"source":{"id":"2075"}},"id":"2079","type":"CDSView"},{"attributes":{"label":{"value":"#of suicide"},"renderers":[{"id":"2078"}]},"id":"2090","type":"LegendItem"},{"attributes":{},"id":"2045","type":"DataRange1d"},{"attributes":{"click_policy":"hide","items":[{"id":"2090"}],"label_text_color":"black","label_text_font_size":"15pt","location":"bottom_right"},"id":"2089","type":"Legend"},{"attributes":{},"id":"2059","type":"PanTool"},{"attributes":{"line_alpha":0.1,"line_color":"#1f77b4","line_width":2,"x":{"field":"x"},"y":{"field":"y"}},"id":"2077","type":"Line"},{"attributes":{"line_alpha":0.8,"line_color":"#1f77b4","line_width":2,"x":{"field":"x"},"y":{"field":"y"}},"id":"2076","type":"Line"},{"attributes":{"fill_color":{"value":"white"},"line_color":{"value":"lightsteelblue"},"size":{"units":"screen","value":10},"x":{"field":"x"},"y":{"field":"y"}},"id":"2092","type":"Circle"},{"attributes":{"axis_label":"Year","axis_label_text_color":"black","axis_label_text_font_size":"15pt","formatter":{"id":"2085"},"major_label_text_font_size":"15pt","ticker":{"id":"2052"}},"id":"2051","type":"LinearAxis"},{"attributes":{},"id":"2052","type":"BasicTicker"},{"attributes":{},"id":"2083","type":"BasicTickFormatter"},{"attributes":{"fill_alpha":{"value":0.1},"fill_color":{"value":"white"},"line_alpha":{"value":0.1},"line_color":{"value":"lightsteelblue"},"size":{"units":"screen","value":10},"x":{"field":"x"},"y":{"field":"y"}},"id":"2093","type":"Circle"},{"attributes":{"bottom_units":"screen","fill_alpha":0.5,"fill_color":"lightgrey","left_units":"screen","level":"overlay","line_alpha":1.0,"line_color":"black","line_dash":[4,4],"line_width":2,"right_units":"screen","top_units":"screen"},"id":"2065","type":"BoxAnnotation"},{"attributes":{"source":{"id":"2091"}},"id":"2095","type":"CDSView"},{"attributes":{"data_source":{"id":"2091"},"glyph":{"id":"2092"},"hover_glyph":null,"muted_glyph":null,"nonselection_glyph":{"id":"2093"},"selection_glyph":null,"view":{"id":"2095"}},"id":"2094","type":"GlyphRenderer"},{"attributes":{},"id":"2085","type":"BasicTickFormatter"},{"attributes":{"callback":null,"tooltips":[["Year","@x"],["# of suicides","@y"]]},"id":"2096","type":"HoverTool"},{"attributes":{"data":{"x":[1990,1991,1992,1993,1994,1995,1996,1997,1998,1999,2000,2001,2002,2003,2004,2005,2006,2007,2008,2009,2010,2011,2012,2013,2014,2015],"y":[170806,171073,180594,189513,200286,204921,203489,196867,205024,211253,211132,207228,213170,213128,209106,202919,199083,200017,200653,205741,200937,199890,197554,188657,194266,192488]},"selected":{"id":"2086"},"selection_policy":{"id":"2087"}},"id":"2075","type":"ColumnDataSource"},{"attributes":{},"id":"2047","type":"LinearScale"},{"attributes":{},"id":"2049","type":"LinearScale"},{"attributes":{"below":[{"id":"2051"}],"center":[{"id":"2054"},{"id":"2058"},{"id":"2089"}],"left":[{"id":"2055"}],"renderers":[{"id":"2078"},{"id":"2094"}],"sizing_mode":"scale_width","title":{"id":"2073"},"toolbar":{"id":"2066"},"x_range":{"id":"2043"},"x_scale":{"id":"2047"},"y_range":{"id":"2045"},"y_scale":{"id":"2049"}},"id":"2042","subtype":"Figure","type":"Plot"},{"attributes":{"active_drag":"auto","active_inspect":"auto","active_multi":null,"active_scroll":"auto","active_tap":"auto","tools":[{"id":"2059"},{"id":"2060"},{"id":"2061"},{"id":"2062"},{"id":"2063"},{"id":"2064"},{"id":"2096"}]},"id":"2066","type":"Toolbar"},{"attributes":{},"id":"2106","type":"Selection"},{"attributes":{},"id":"2107","type":"UnionRenderers"},{"attributes":{},"id":"2056","type":"BasicTicker"},{"attributes":{"axis":{"id":"2055"},"dimension":1,"ticker":null},"id":"2058","type":"Grid"},{"attributes":{},"id":"2086","type":"Selection"},{"attributes":{"data":{"x":[1990,1991,1992,1993,1994,1995,1996,1997,1998,1999,2000,2001,2002,2003,2004,2005,2006,2007,2008,2009,2010,2011,2012,2013,2014,2015],"y":[170806,171073,180594,189513,200286,204921,203489,196867,205024,211253,211132,207228,213170,213128,209106,202919,199083,200017,200653,205741,200937,199890,197554,188657,194266,192488]},"selected":{"id":"2106"},"selection_policy":{"id":"2107"}},"id":"2091","type":"ColumnDataSource"},{"attributes":{"axis_label":"Number of Suicide Cases (in Thousands)","axis_label_text_color":"black","axis_label_text_font_size":"15pt","formatter":{"id":"2083"},"major_label_text_font_size":"15pt","ticker":{"id":"2056"}},"id":"2055","type":"LinearAxis"},{"attributes":{},"id":"2087","type":"UnionRenderers"},{"attributes":{},"id":"2063","type":"ResetTool"},{"attributes":{"data_source":{"id":"2075"},"glyph":{"id":"2076"},"hover_glyph":null,"muted_glyph":null,"nonselection_glyph":{"id":"2077"},"selection_glyph":null,"view":{"id":"2079"}},"id":"2078","type":"GlyphRenderer"},{"attributes":{"axis":{"id":"2051"},"ticker":null},"id":"2054","type":"Grid"},{"attributes":{},"id":"2043","type":"DataRange1d"},{"attributes":{},"id":"2062","type":"SaveTool"},{"attributes":{},"id":"2060","type":"WheelZoomTool"},{"attributes":{},"id":"2064","type":"HelpTool"},{"attributes":{"text":"Global Suicide Trend between 1990 and 2015","text_font_size":{"value":"30pt"}},"id":"2073","type":"Title"},{"attributes":{"overlay":{"id":"2065"}},"id":"2061","type":"BoxZoomTool"}],"root_ids":["2042"]},"title":"Bokeh Application","version":"2.1.1"}}
+        </script>
+        <script type="text/javascript">
+          (function() {
+            var fn = function() {
+              Bokeh.safely(function() {
+                (function(root) {
+                  function embed_document(root) {
+                    
+                  var docs_json = document.getElementById('2230').textContent;
+                  var render_items = [{"docid":"b9ed5b62-b3d2-4cbd-a86f-fa1d555c8da7","root_ids":["2042"],"roots":{"2042":"7d8587fc-3cbd-4bbd-978e-e5ac85d0e686"}}];
+                  root.Bokeh.embed.embed_items(docs_json, render_items);
+                
+                  }
+                  if (root.Bokeh !== undefined) {
+                    embed_document(root);
+                  } else {
+                    var attempts = 0;
+                    var timer = setInterval(function(root) {
+                      if (root.Bokeh !== undefined) {
+                        clearInterval(timer);
+                        embed_document(root);
+                      } else {
+                        attempts++;
+                        if (attempts > 100) {
+                          clearInterval(timer);
+                          console.log("Bokeh: ERROR: Unable to run BokehJS code because BokehJS library is missing");
+                        }
+                      }
+                    }, 10, root)
+                  }
+                })(window);
+              });
+            };
+            if (document.readyState != "loading") fn();
+            else document.addEventListener("DOMContentLoaded", fn);
+          })();
+        </script>
+    
+  </body>
+  
+</html>
