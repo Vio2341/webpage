@@ -1,0 +1,85 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+  
+  <head>
+    
+      <meta charset="utf-8">
+      <title>Bokeh Plot</title>
+      
+      
+        
+          
+        
+        
+          
+        <script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-2.1.1.min.js" integrity="sha384-kLr4fYcqcSpbuI95brIH3vnnYCquzzSxHPU6XGQCIkQRGJwhg0StNbj1eegrHs12" crossorigin="anonymous"></script>
+        <script type="text/javascript">
+            Bokeh.set_log_level("info");
+        </script>
+        
+      
+      
+    
+  </head>
+  
+  
+  <body>
+    
+      
+        
+          
+          
+            
+              <div class="bk-root" id="acf01073-7f3a-4e16-afb6-72a5f77e01b5" data-root-id="1662"></div>
+            
+          
+        
+      
+      
+        <script type="application/json" id="1851">
+          {"24a68e59-cba9-479c-9809-e7c8ed1536c6":{"roots":{"references":[{"attributes":{"fill_alpha":{"value":0.1},"fill_color":{"value":"white"},"line_alpha":{"value":0.1},"line_color":{"value":"lightsteelblue"},"size":{"units":"screen","value":10},"x":{"field":"x"},"y":{"field":"y"}},"id":"1714","type":"Circle"},{"attributes":{},"id":"1727","type":"Selection"},{"attributes":{},"id":"1728","type":"UnionRenderers"},{"attributes":{},"id":"1679","type":"PanTool"},{"attributes":{},"id":"1665","type":"DataRange1d"},{"attributes":{},"id":"1680","type":"WheelZoomTool"},{"attributes":{},"id":"1684","type":"HelpTool"},{"attributes":{},"id":"1706","type":"BasicTickFormatter"},{"attributes":{"below":[{"id":"1671"}],"center":[{"id":"1674"},{"id":"1678"},{"id":"1710"}],"left":[{"id":"1675"}],"renderers":[{"id":"1699"},{"id":"1715"}],"sizing_mode":"scale_width","title":{"id":"1694"},"toolbar":{"id":"1686"},"x_range":{"id":"1663"},"x_scale":{"id":"1667"},"y_range":{"id":"1665"},"y_scale":{"id":"1669"}},"id":"1662","subtype":"Figure","type":"Plot"},{"attributes":{"overlay":{"id":"1685"}},"id":"1681","type":"BoxZoomTool"},{"attributes":{},"id":"1708","type":"UnionRenderers"},{"attributes":{},"id":"1682","type":"SaveTool"},{"attributes":{},"id":"1707","type":"Selection"},{"attributes":{},"id":"1683","type":"ResetTool"},{"attributes":{"active_drag":"auto","active_inspect":"auto","active_multi":null,"active_scroll":"auto","active_tap":"auto","tools":[{"id":"1679"},{"id":"1680"},{"id":"1681"},{"id":"1682"},{"id":"1683"},{"id":"1684"},{"id":"1717"}]},"id":"1686","type":"Toolbar"},{"attributes":{},"id":"1667","type":"LinearScale"},{"attributes":{"label":{"value":"#of suicide"},"renderers":[{"id":"1699"}]},"id":"1711","type":"LegendItem"},{"attributes":{},"id":"1676","type":"BasicTicker"},{"attributes":{"axis_label":"Year","axis_label_text_color":"black","axis_label_text_font_size":"15pt","formatter":{"id":"1706"},"major_label_text_font_size":"15pt","ticker":{"id":"1672"}},"id":"1671","type":"LinearAxis"},{"attributes":{},"id":"1672","type":"BasicTicker"},{"attributes":{"line_alpha":0.1,"line_color":"#1f77b4","line_width":2,"x":{"field":"x"},"y":{"field":"y"}},"id":"1698","type":"Line"},{"attributes":{"data_source":{"id":"1696"},"glyph":{"id":"1697"},"hover_glyph":null,"muted_glyph":null,"nonselection_glyph":{"id":"1698"},"selection_glyph":null,"view":{"id":"1700"}},"id":"1699","type":"GlyphRenderer"},{"attributes":{"axis":{"id":"1671"},"ticker":null},"id":"1674","type":"Grid"},{"attributes":{},"id":"1669","type":"LinearScale"},{"attributes":{"axis_label":"Number of Suicide Cases (in Thousands)","axis_label_text_color":"black","axis_label_text_font_size":"15pt","formatter":{"id":"1704"},"major_label_text_font_size":"15pt","ticker":{"id":"1676"}},"id":"1675","type":"LinearAxis"},{"attributes":{"fill_color":{"value":"white"},"line_color":{"value":"lightsteelblue"},"size":{"units":"screen","value":10},"x":{"field":"x"},"y":{"field":"y"}},"id":"1713","type":"Circle"},{"attributes":{"bottom_units":"screen","fill_alpha":0.5,"fill_color":"lightgrey","left_units":"screen","level":"overlay","line_alpha":1.0,"line_color":"black","line_dash":[4,4],"line_width":2,"right_units":"screen","top_units":"screen"},"id":"1685","type":"BoxAnnotation"},{"attributes":{"line_alpha":0.8,"line_color":"#1f77b4","line_width":2,"x":{"field":"x"},"y":{"field":"y"}},"id":"1697","type":"Line"},{"attributes":{},"id":"1663","type":"DataRange1d"},{"attributes":{"data":{"x":[1990,1991,1992,1993,1994,1995,1996,1997,1998,1999,2000,2001,2002,2003,2004,2005,2006,2007,2008,2009,2010,2011,2012,2013,2014,2015],"y":[170806,171073,180594,189513,200286,204921,203489,196867,205024,211253,211132,207228,213170,213128,209106,202919,199083,200017,200653,205741,200937,199890,197554,188657,194266,192488]},"selected":{"id":"1707"},"selection_policy":{"id":"1708"}},"id":"1696","type":"ColumnDataSource"},{"attributes":{"data":{"x":[1990,1991,1992,1993,1994,1995,1996,1997,1998,1999,2000,2001,2002,2003,2004,2005,2006,2007,2008,2009,2010,2011,2012,2013,2014,2015],"y":[170806,171073,180594,189513,200286,204921,203489,196867,205024,211253,211132,207228,213170,213128,209106,202919,199083,200017,200653,205741,200937,199890,197554,188657,194266,192488]},"selected":{"id":"1727"},"selection_policy":{"id":"1728"}},"id":"1712","type":"ColumnDataSource"},{"attributes":{"text":"Global Suicide Trend between 1990 and 2015","text_font_size":{"value":"30pt"}},"id":"1694","type":"Title"},{"attributes":{"axis":{"id":"1675"},"dimension":1,"ticker":null},"id":"1678","type":"Grid"},{"attributes":{"source":{"id":"1696"}},"id":"1700","type":"CDSView"},{"attributes":{"click_policy":"hide","items":[{"id":"1711"}],"label_text_color":"black","label_text_font_size":"15pt","location":"bottom_right"},"id":"1710","type":"Legend"},{"attributes":{"source":{"id":"1712"}},"id":"1716","type":"CDSView"},{"attributes":{"data_source":{"id":"1712"},"glyph":{"id":"1713"},"hover_glyph":null,"muted_glyph":null,"nonselection_glyph":{"id":"1714"},"selection_glyph":null,"view":{"id":"1716"}},"id":"1715","type":"GlyphRenderer"},{"attributes":{},"id":"1704","type":"BasicTickFormatter"},{"attributes":{"callback":null,"tooltips":[["Year","@x"],["# of suicides","@y"]]},"id":"1717","type":"HoverTool"}],"root_ids":["1662"]},"title":"Bokeh Application","version":"2.1.1"}}
+        </script>
+        <script type="text/javascript">
+          (function() {
+            var fn = function() {
+              Bokeh.safely(function() {
+                (function(root) {
+                  function embed_document(root) {
+                    
+                  var docs_json = document.getElementById('1851').textContent;
+                  var render_items = [{"docid":"24a68e59-cba9-479c-9809-e7c8ed1536c6","root_ids":["1662"],"roots":{"1662":"acf01073-7f3a-4e16-afb6-72a5f77e01b5"}}];
+                  root.Bokeh.embed.embed_items(docs_json, render_items);
+                
+                  }
+                  if (root.Bokeh !== undefined) {
+                    embed_document(root);
+                  } else {
+                    var attempts = 0;
+                    var timer = setInterval(function(root) {
+                      if (root.Bokeh !== undefined) {
+                        clearInterval(timer);
+                        embed_document(root);
+                      } else {
+                        attempts++;
+                        if (attempts > 100) {
+                          clearInterval(timer);
+                          console.log("Bokeh: ERROR: Unable to run BokehJS code because BokehJS library is missing");
+                        }
+                      }
+                    }, 10, root)
+                  }
+                })(window);
+              });
+            };
+            if (document.readyState != "loading") fn();
+            else document.addEventListener("DOMContentLoaded", fn);
+          })();
+        </script>
+    
+  </body>
+  
+</html>
